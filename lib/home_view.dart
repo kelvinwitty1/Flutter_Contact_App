@@ -144,7 +144,7 @@ class HomeView extends StatelessWidget {
                                 country: 'Ghana',
                                 email: 'kelvinyevu1@gmail.com',
                                 name: 'Kelvin Yevuyibor',
-                                phone: '+233 24 54 36 ',
+                                phone: '+233 24 54 36 567 ',
                                 region: 'Greater Accra'));
                       }));
                     },
@@ -153,11 +153,11 @@ class HomeView extends StatelessWidget {
                       backgroundImage: AssetImage('images/person1.jpg'),
                     ),
                     title: const Text(
-                      'Kamal Yakubu',
+                      'Kelvin Yevuyibor',
                       style:
                           TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
                     ),
-                    subtitle: const Text('+233 24 54 36 757'),
+                    subtitle: const Text('+233 24 54 36 567 '),
                     trailing: const IconButton(
                         onPressed: null, icon: Icon(Icons.more_horiz)),
                   );
